@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:test_soundboard_app/drawer_maker.dart';
 import 'package:test_soundboard_app/responses.dart';
 import 'dart:ui';
 
+void main() async{
+  
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown
+  ]);
 
-void main() => runApp(SoundBoardApp());
+  runApp(SoundBoardApp());
+} 
 
 class SoundBoardApp extends StatelessWidget
 {

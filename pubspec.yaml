@@ -22,6 +22,7 @@ dependencies:
   
   audioplayer:
   
+  volume: ^0.1.0
 
   path_provider:
   
@@ -70,6 +71,19 @@ flutter:
    - assets/sounds/responses/entrepeneurshiop_is_cool.mp3
    - assets/sounds/misc/piano_on_face.mp3
    - assets/sounds/responses/thats_fucking_amazing.mp3
+   - assets/sounds/responses/im_just_so_tired.mp3
+   - assets/sounds/responses/thats_exactly_right.mp3
+   - assets/sounds/responses/100Percent.mp3 
+   - assets/sounds/responses/Listen.mp3
+   - assets/sounds/responses/IDontKnow.mp3
+   - assets/sounds/responses/YouGuysHere.mp3
+   - assets/sounds/responses/Yes.mp3
+   - assets/sounds/responses/No.mp3
+   - assets/sounds/responses/ItsRealSimple.mp3
+   - assets/sounds/responses/HumanBehavior.mp3
+   - assets/sounds/misc/ShesAGangster.mp3
+   - assets/sounds/misc/HelloHongKong.mp3
+   - assets/sounds/responses/YoureNot.mp3 #End
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

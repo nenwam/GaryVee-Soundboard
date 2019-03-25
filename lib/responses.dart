@@ -15,7 +15,8 @@ class Responses extends StatefulWidget
 
 class _Responses extends State<Responses>
 {
-   SoundPlayer player;
+
+  SoundPlayer player;
 
   List<String> soundFilePath;
 
@@ -24,6 +25,7 @@ class _Responses extends State<Responses>
     super.initState();
     player = new SoundPlayer();
   }
+
 
   Widget getFuture(){
     return new FutureBuilder<List<String>>(
@@ -113,22 +115,38 @@ class _Responses extends State<Responses>
           child: Container(
             child: Column(children: <Widget>[
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
-                makeButton(width, height, 'Yes', 8),
-                makeButton(width, height, 'No', 1),
+                makeButton(width, height, 'Yes', 23),
+                makeButton(width, height, 'No', 24),
                 makeButton(width, height, 'Welcome', 5),
               ]),
               space,
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
                 makeButton(width, height, 'You did, \nmy man', 3),
-                makeButton(width, height, 'Entrepeneurship\nis cool', 14),
-                makeButton(width, 56.0, 'That\'s \nfucking \namazing', 16),
+                makeButton(width, height, 'Entrepeneurship is cool', 14),
               ]),
               space,
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
                 makeButton(width, height, 'I feel bad', 10),
                 makeButton(width, height, 'You\'re not \nhappy', 13),
                 makeButton(width, height, 'This is \nreal talk', 9),
-              ],) 
+              ],),
+              space,
+              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
+                makeButton(width, height, 'I\'m just so tired', 17),
+                makeButton(width, height, 'That\'s exactly right', 18),
+              ],),
+              space,
+              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
+                makeButton(width, 56.0, 'That\'s \nfucking \namazing', 16),
+                makeButton(width, height, 'Shit, man', 12),
+                makeButton(width, height, 'You guys \nare here?', 22),
+              ],),
+              space,
+              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
+                makeButton(width, height, 'You\'re not', 29),
+                makeButton(width, height, 'Listen', 20),
+                makeButton(width, height, 'I Don\'t Know', 21),
+              ],)
             ])
           )
         )

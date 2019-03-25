@@ -28,7 +28,20 @@ class SoundStorage{
     'assets/sounds/responses/entrepeneurshiop_is_cool.mp3',   // 14 "Entrepenurship is cool"
     'assets/sounds/misc/piano_on_face.mp3',               // 15 "Piano on your fucking face"
     'assets/sounds/responses/thats_fucking_amazing.mp3',  // 16 "That's fucking amazing"
-  ];
+    'assets/sounds/responses/im_just_so_tired.mp3',       // 17 "I'm just so tired"
+    'assets/sounds/responses/thats_exactly_right.mp3',    // 18 "That's exactly right"
+    'assets/sounds/responses/100Percent.mp3',             // 19 "100 Percent"
+    'assets/sounds/responses/Listen.mp3',                 // 20 "Listen"
+    'assets/sounds/responses/IDontKnow.mp3',              // 21 "I Dont' Know"
+    'assets/sounds/responses/YouGuysHere.mp3',            // 22 "What are you guys doing here"
+    'assets/sounds/responses/Yes.mp3',                    // 23 "Yes"
+    'assets/sounds/responses/No.mp3',                     // 24 "No"
+    'assets/sounds/responses/ItsRealSimple.mp3',          // 25 "It's real Simple"
+    'assets/sounds/responses/HumanBehavior.mp3',          // 26 "Human Behavior"
+    'assets/sounds/misc/ShesAGangster.mp3',               // 27 "She's a gangster"
+    'assets/sounds/misc/HelloHongKong.mp3',               // 28 "Hello Hong Kong"
+    'assets/sounds/responses/YoureNot.mp3',               // 29 "You're Not"
+  ];  
 
   Future<SharedPreferences> prefs;
 
