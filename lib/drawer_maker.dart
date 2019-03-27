@@ -45,7 +45,7 @@ class DrawerMaker extends StatelessWidget
               new Divider(),
               new ListTile(
                 onTap: () { 
-                  Navigator.of(context).pop();
+                  Navigator.of(context).pushReplacementNamed("/c");
                   //TODO: Add route for this page
                 },
                 title: new Text(

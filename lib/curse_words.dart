@@ -7,13 +7,13 @@ import 'package:test_soundboard_app/main.dart';
 import 'package:test_soundboard_app/soundplayer.dart';
 import 'package:test_soundboard_app/soundstorage.dart';
 
-class Responses extends StatefulWidget
+class CurseWords extends StatefulWidget
 {
-   Responses({ Key key }) : super(key: key);
-   State<StatefulWidget> createState() => new _Responses();
+   CurseWords({ Key key }) : super(key: key);
+   State<StatefulWidget> createState() => new _CurseWords();
 }
 
-class _Responses extends State<Responses>
+class _CurseWords extends State<CurseWords>
 {
 
   MediaQueryData queryData;
@@ -57,7 +57,7 @@ class _Responses extends State<Responses>
     return new Scaffold(
       appBar: new AppBar(
         title: new Text(
-          'Responses', 
+          'Curse Words', 
           style: new TextStyle(
             fontFamily: 'Permanent Marker', 
             fontSize: 26
@@ -87,7 +87,7 @@ class _Responses extends State<Responses>
       padding: new EdgeInsets.all(10),
       child: new RaisedButton(
         onPressed: () => player.play(soundFilePath[filePath]),
-        child: Text(name, style: new TextStyle(fontFamily: 'Comfortaa Regular', fontSize: queryData.textScaleFactor*18))
+        child: Text(name, style: new TextStyle(fontFamily: 'Comfortaa Regular', fontSize: queryData.textScaleFactor*20))
       )
     );
   }

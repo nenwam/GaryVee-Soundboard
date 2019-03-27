@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:test_soundboard_app/drawer_maker.dart';
 import 'package:test_soundboard_app/responses.dart';
+import 'package:test_soundboard_app/curse_words.dart';
 import 'dart:ui';
 
 void main() async{
@@ -34,6 +35,7 @@ class SoundBoardApp extends StatelessWidget
       routes: <String, WidgetBuilder>{
         "/a": (BuildContext context) => new SoundBoardApp(),
         "/b": (BuildContext context) => new Responses(),
+        "/c": (BuildContext context) => new CurseWords(),
       }
     );
   }
