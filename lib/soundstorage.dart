@@ -41,6 +41,17 @@ class SoundStorage{
     'assets/sounds/misc/ShesAGangster.mp3',               // 27 "She's a gangster"
     'assets/sounds/misc/HelloHongKong.mp3',               // 28 "Hello Hong Kong"
     'assets/sounds/responses/YoureNot.mp3',               // 29 "You're Not"
+    'assets/sounds/curse/Fucken.mp3',                     // 30 "Fucken"
+    'assets/sounds/curse/FuckTheMan.mp3',                 // 31 "Fuck The Man"
+    'assets/sounds/curse/IDontGiveAFuck.mp3',             // 32 "I Don't Give a Fuck"
+    'assets/sounds/curse/TheFuckYouThink.mp3',            // 33 "The Fuck You Think"
+    'assets/sounds/curse/AintShit.mp3',                   // 34 "Aint Shit"   // Start
+    'assets/sounds/curse/CrazyShit.mp3',                  // 35 "Crazy Shit" 
+    'assets/sounds/curse/FuckedUp.mp3',                   // 36 "Fucked Up"
+    'assets/sounds/curse/FuckenSuck.mp3',                 // 37 "You fucken suck"
+    'assets/sounds/curse/FuckenTrash.mp3',                // 38 "Fucken Trash"
+    'assets/sounds/curse/Shit.mp3',                       // 39 "Shit"
+    'assets/sounds/curse/ShitOnYou.mp3',                   // 40 "Shit on You"
   ];  
 
   Future<SharedPreferences> prefs;

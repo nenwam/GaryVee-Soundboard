@@ -56,6 +56,21 @@ class DrawerMaker extends StatelessWidget
                     fontSize: 30,
                   )
                 )
+              ),
+              new Divider(),
+              new ListTile(
+                onTap: () { 
+                  Navigator.of(context).pushReplacementNamed("/d");
+                  //TODO: Add route for this page
+                },
+                title: new Text(
+                  'Funny',
+                  textAlign: TextAlign.center,
+                  style:TextStyle(
+                    fontFamily: 'Comfortaa Bold',
+                    fontSize: 30,
+                  )
+                )
               )
             ],
           )

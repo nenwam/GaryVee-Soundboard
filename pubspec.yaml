@@ -83,7 +83,19 @@ flutter:
    - assets/sounds/responses/HumanBehavior.mp3
    - assets/sounds/misc/ShesAGangster.mp3
    - assets/sounds/misc/HelloHongKong.mp3
-   - assets/sounds/responses/YoureNot.mp3 #End
+   - assets/sounds/responses/YoureNot.mp3
+   - assets/sounds/curse/Fucken.mp3
+   - assets/sounds/curse/FuckTheMan.mp3
+   - assets/sounds/IDontGiveAFuck.mp3
+   - assets/sounds/TheFuckYouThink.mp3 
+   - assets/sounds/curse/AintShit.mp3
+   - assets/sounds/curse/CrazyShit.mp3
+   - assets/sounds/curse/FuckedUp.mp3
+   - assets/sounds/curse/FuckenSuck.mp3
+   - assets/sounds/curse/FuckenTrash.mp3
+   - assets/sounds/curse/Shit.mp3
+   - assets/sounds/curse/ShitOnYou.mp3 
+   - assets/sounds/curse/AintShit.mp3 #End
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

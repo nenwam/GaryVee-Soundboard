@@ -7,13 +7,13 @@ import 'package:test_soundboard_app/main.dart';
 import 'package:test_soundboard_app/soundplayer.dart';
 import 'package:test_soundboard_app/soundstorage.dart';
 
-class CurseWords extends StatefulWidget
+class Funny extends StatefulWidget
 {
-   CurseWords({ Key key }) : super(key: key);
-   State<StatefulWidget> createState() => new _CurseWords();
+   Funny({ Key key }) : super(key: key);
+   State<StatefulWidget> createState() => new _Funny();
 }
 
-class _CurseWords extends State<CurseWords>
+class _Funny extends State<Funny>
 {
 
   MediaQueryData queryData;
@@ -57,7 +57,7 @@ class _CurseWords extends State<CurseWords>
     return new Scaffold(
       appBar: new AppBar(
         title: new Text(
-          'Curse Words', 
+          'Funny', 
           style: new TextStyle(
             fontFamily: 'Permanent Marker', 
             fontSize: 26
