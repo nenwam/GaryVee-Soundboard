@@ -87,7 +87,7 @@ class _CurseWords extends State<CurseWords>
       padding: new EdgeInsets.all(10),
       child: new RaisedButton(
         onPressed: () => player.play(soundFilePath[filePath]),
-        child: Text(name, style: new TextStyle(fontFamily: 'Comfortaa Regular', fontSize: queryData.textScaleFactor*20))
+        child: Text(name, style: new TextStyle(fontFamily: 'Comfortaa Regular', fontSize: queryData.textScaleFactor*18))
       )
     );
   }
@@ -136,13 +136,13 @@ class _CurseWords extends State<CurseWords>
               ]),
               space,
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
-                makeButton(buttonWidth, buttonHeight, 'Fucked Up', 36),
+                makeButton(buttonWidth, buttonHeight, 'Fucked Up', 41),
+                makeButton(buttonWidth, buttonHeight, 'Shit', 39),
                 makeButton(buttonWidth, buttonHeight, 'Fucken Suck', 37),
               ],),
               space,
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
                 makeButton(buttonWidth, buttonHeight, 'Fucken Trash', 38),
-                makeButton(buttonWidth, buttonHeight, 'Shit', 39),
                 makeButton(buttonWidth, 56.0, 'Shit on You', 40),
               ],),
             ])

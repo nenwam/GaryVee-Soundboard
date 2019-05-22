@@ -51,7 +51,35 @@ class SoundStorage{
     'assets/sounds/curse/FuckenSuck.mp3',                 // 37 "You fucken suck"
     'assets/sounds/curse/FuckenTrash.mp3',                // 38 "Fucken Trash"
     'assets/sounds/curse/Shit.mp3',                       // 39 "Shit"
-    'assets/sounds/curse/ShitOnYou.mp3',                   // 40 "Shit on You"
+    'assets/sounds/curse/ShitOnYou.mp3',                  // 40 "Shit on You"
+    'assets/sounds/curse/FuckedUpReal.mp3',               // 41 "Fucked Up" (The Real One)
+    'assets/sounds/misc/LunchRoomShit.mp3',               // 42 "Lunch Room Shit"
+    'assets/sounds/sayings/early_bird.mp3',               // 43 "Early Bird Gets the Worm"
+    'assets/sounds/sayings/ThisIsFunny.mp3',              // 44 "This is Funny"
+    'assets/sounds/sayings/HireSomebody.mp3',             // 45 "Hire Somebody"
+    'assets/sounds/sayings/Players.mp3',                  // 46 "Players"
+    'assets/sounds/sayings/DoTheirThing.mp3',             // 47 "Do Their Thing"
+    'assets/sounds/sayings/UnderstandThat.mp3',           // 48 "Understand That"
+    'assets/sounds/misc/HighOnSupply.mp3',                // 49 "High on Supply"
+    'assets/sounds/sayings/ThisIsFunnyReal.mp3',          // 50 "This is Really Funny" (Real)
+    'assets/sounds/sayings/UnderstandThatReal.mp3',       // 51 "Understand That"
+    'assets/sounds/sayings/LessMarathons.mp3',            // 52 "Less Stranger Things Marathons"
+    'assets/sounds/sayings/LessFortnite.mp3',             // 53 "Less Fortnite"
+    'assets/sounds/sayings/FishingPole.mp3',              // 54 "I'm Giving you the fishing pole"
+    'assets/sounds/sayings/YourDream.mp3',                // 55 "You have to bleed for your dream"
+    'assets/sounds/sayings/JustGoDo.mp3',                 // 56 "Just Go Do"
+    'assets/sounds/sayings/OtherOpinions.mp3',            // 57 "People live lives based on opinions
+    'assets/sounds/sayings/TryShit.mp3',                  // 58 "You have to try shit"
+    'assets/sounds/sayings/TryShit2.mp3',                 // 59 "Try shit"
+    'assets/sounds/sayings/DecideNo.mp3',                 // 60 "Your deciding to say no"
+    'assets/sounds/sayings/LoveLosing.mp3',               // 61 "I Love Losing"
+    'assets/sounds/misc/Hotdogs.mp3',                     // 62 "Hotdogs are da' best"
+    'assets/sounds/misc/21Savage.mp3',                    // 63 "21 Savage"
+    'assets/sounds/misc/TheWorld.mp3',                    // 64 "The World"
+    'assets/sounds/misc/Fatpants86.mp3',                  // 65 "Fatpants86"
+    'assets/sounds/misc/FoodTaste.mp3',                   // 66 "Food Taste"
+    'assets/sounds/sayings/ParentOpinion.mp3',            // 67 "Your Parent's Opinion"
+    'assets/sounds/sayings/Friends.mp3',                  // 68 "Optimistic Friends"
   ];  
 
   Future<SharedPreferences> prefs;

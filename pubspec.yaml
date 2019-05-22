@@ -95,7 +95,36 @@ flutter:
    - assets/sounds/curse/FuckenTrash.mp3
    - assets/sounds/curse/Shit.mp3
    - assets/sounds/curse/ShitOnYou.mp3 
-   - assets/sounds/curse/AintShit.mp3 #End
+   - assets/sounds/curse/AintShit.mp3 
+   - assets/sounds/curse/FuckedUpReal.mp3
+   - assets/sounds/misc/LunchRoomShit.mp3
+   - assets/sounds/sayings/early_bird.mp3
+   - assets/sounds/sayings/ThisIsFunny.mp3
+   - assets/sounds/sayings/HireSomebody.mp3
+   - assets/sounds/sayings/Players.mp3
+   - assets/sounds/sayings/DoTheirThing.mp3
+   - assets/sounds/sayings/UnderstandThat.mp3
+   - assets/sounds/sayings/MostImportantWord.mp3
+   - assets/sounds/misc/HighOnSupply.mp3
+   - assets/sounds/sayings/ThisIsFunnyReal.mp3
+   - assets/sounds/sayings/UnderstandThatReal.mp3
+   - assets/sounds/sayings/LessMarathons.mp3
+   - assets/sounds/sayings/LessFortnite.mp3
+   - assets/sounds/sayings/FishingPole.mp3
+   - assets/sounds/sayings/YourDream.mp3
+   - assets/sounds/sayings/JustGoDo.mp3
+   - assets/sounds/sayings/OtherOpinions.mp3
+   - assets/sounds/sayings/TryShit.mp3
+   - assets/sounds/sayings/TryShit2.mp3
+   - assets/sounds/sayings/DecideNo.mp3
+   - assets/sounds/sayings/LoveLosing.mp3
+   - assets/sounds/misc/Hotdogs.mp3
+   - assets/sounds/misc/21Savage.mp3
+   - assets/sounds/misc/TheWorld.mp3
+   - assets/sounds/misc/Fatpants86.mp3
+   - assets/sounds/misc/FoodTaste.mp3
+   - assets/sounds/sayings/ParentOpinion.mp3
+   - assets/sounds/sayings/Friends.mp3
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

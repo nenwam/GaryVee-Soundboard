@@ -7,13 +7,13 @@ import 'package:test_soundboard_app/main.dart';
 import 'package:test_soundboard_app/soundplayer.dart';
 import 'package:test_soundboard_app/soundstorage.dart';
 
-class Funny extends StatefulWidget
+class Sayings extends StatefulWidget
 {
-   Funny({ Key key }) : super(key: key);
-   State<StatefulWidget> createState() => new _Funny();
+   Sayings({ Key key }) : super(key: key);
+   State<StatefulWidget> createState() => new _Sayings();
 }
 
-class _Funny extends State<Funny>
+class _Sayings extends State<Sayings>
 {
 
   MediaQueryData queryData;
@@ -57,7 +57,7 @@ class _Funny extends State<Funny>
     return new Scaffold(
       appBar: new AppBar(
         title: new Text(
-          'Funny', 
+          'Sayings', 
           style: new TextStyle(
             fontFamily: 'Permanent Marker', 
             fontSize: 26
@@ -124,30 +124,39 @@ class _Funny extends State<Funny>
               width: queryData.size.width,
               child: Column(children: <Widget>[
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
-                makeButton(buttonWidth, buttonHeight, 'Turns Me On', 6),
-                makeButton(buttonWidth, buttonHeight, 'Dickpants47', 8),
-                makeButton(buttonWidth, buttonHeight, 'Juice From \n the Moon', 11),
+                makeButton(buttonWidth, buttonHeight, 'Early Bird', 43),
+                makeButton(buttonWidth, buttonHeight, 'This is Funny', 50),
+                makeButton(buttonWidth, buttonHeight, 'Hire Somebody', 45),
               ]),
               space,
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
-                makeButton(buttonWidth, buttonHeight, 'Piano On Face', 15),
-                makeButton(buttonWidth, buttonHeight, 'She\'s a Gangster', 27),
+                makeButton(buttonWidth, buttonHeight, 'Players', 46),
+                makeButton(buttonWidth, buttonHeight, 'Do Their Thing', 47),
+                makeButton(buttonWidth, buttonHeight, 'Understand That', 51),
               ]),
               space,
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
-                makeButton(buttonWidth, buttonHeight, 'Hello Hong Kong', 28),
-                makeButton(buttonWidth, buttonHeight, 'Lunch Room Shit', 42),
+                makeButton(buttonWidth, buttonHeight, 'Less Marathons', 52),
+                makeButton(buttonWidth, buttonHeight, 'Less Fortnite', 53),
+                makeButton(buttonWidth, buttonHeight, 'Fishing Pole', 54),
               ],),
               space,
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
-                makeButton(buttonWidth, buttonHeight, 'Hotdogs', 62),
-                makeButton(buttonWidth, buttonHeight, '21 Savage', 63),
-                makeButton(buttonWidth, buttonHeight, 'The World', 64)
+                makeButton(buttonWidth, buttonHeight, 'Your Dream', 55),
+                makeButton(buttonWidth, buttonHeight, 'Just Go Do', 56),
+                makeButton(buttonWidth, buttonHeight, 'Other People\'s \n Opinions', 57)
               ],),
               space,
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
-                makeButton(buttonWidth, buttonHeight, 'Fatpants86', 65),
-                makeButton(buttonWidth, buttonHeight, 'Food Taste', 66),
+                makeButton(buttonWidth, buttonHeight, 'Try Shit', 58),
+                makeButton(buttonWidth, buttonHeight, 'Try Shit 2', 59),
+                makeButton(buttonWidth, buttonHeight, 'People Decide No', 60)
+              ],),
+              space,
+              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
+                makeButton(buttonWidth, buttonHeight, 'I Love Losing', 61),
+                makeButton(buttonWidth, buttonHeight, 'Parent Opinion', 67),
+                makeButton(buttonWidth, buttonHeight, 'Friends', 68)
               ],),
             ])
             )

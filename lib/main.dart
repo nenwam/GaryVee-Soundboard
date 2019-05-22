@@ -4,6 +4,7 @@ import 'package:test_soundboard_app/drawer_maker.dart';
 import 'package:test_soundboard_app/responses.dart';
 import 'package:test_soundboard_app/curse_words.dart';
 import 'package:test_soundboard_app/funny.dart';
+import 'package:test_soundboard_app/sayings.dart';
 import 'dart:ui';
 
 void main() async{
@@ -38,6 +39,7 @@ class SoundBoardApp extends StatelessWidget
         "/b": (BuildContext context) => new Responses(),
         "/c": (BuildContext context) => new CurseWords(),
         "/d": (BuildContext context) => new Funny(),
+        "/e": (BuildContext context) => new Sayings(),
       }
     );
   }
