@@ -148,6 +148,13 @@ class _Funny extends State<Funny>
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
                 makeButton(buttonWidth, buttonHeight, 'Fatpants86', 65),
                 makeButton(buttonWidth, buttonHeight, 'Food Taste', 66),
+                makeButton(buttonWidth, buttonHeight, 'Blueberries', 69),
+              ],),
+              space,
+              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
+                makeButton(buttonWidth, buttonHeight, 'Blueberries 2', 70),
+                makeButton(buttonWidth, buttonHeight, 'Fuck You \n Grandpa', 71),
+                makeButton(buttonWidth, buttonHeight, 'Hand Eye', 80)
               ],),
             ])
             )

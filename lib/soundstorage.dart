@@ -80,6 +80,18 @@ class SoundStorage{
     'assets/sounds/misc/FoodTaste.mp3',                   // 66 "Food Taste"
     'assets/sounds/sayings/ParentOpinion.mp3',            // 67 "Your Parent's Opinion"
     'assets/sounds/sayings/Friends.mp3',                  // 68 "Optimistic Friends"
+    'assets/sounds/misc/Blueberries.mp3',                 // 69 "Blueberries Meme"
+    'assets/sounds/misc/Blueberries2.mp3',                // 70 "Blueberries Meme 2"
+    'assets/sounds/misc/FuckYouGrandpa.mp3',              // 71 "Fuck Your Grandpa"
+    'assets/sounds/curse/FuckFaces.mp3',                  // 72 "Fuck Faces"
+    'assets/sounds/misc/ILoveCurse.mp3',                  // 73 "I Love Curse Words"
+    'assets/sounds/curse/DickFace.mp3',                   // 74 "Dick Face"
+    'assets/sounds/curse/NobodyGivesAFuck.mp3',           // 75 "Nobody Gives a Fuck"
+    'assets/sounds/curse/JackShit.mp3',                   // 76 "Jack Shit"
+    'assets/sounds/curse/FuckTheMan.mp3',                 // 77 "Fuck The Man"
+    'assets/sounds/curse/DoneShit.mp3',                   // 78 "You haven't done shit"  
+    'assets/sounds/curse/YoureLost.mp3',                   // 79 "You're Fucken Lost"
+    'assets/sounds/misc/HandEye.mp3',                     // 80 "Hand Eye Coordination"         
   ];  
 
   Future<SharedPreferences> prefs;

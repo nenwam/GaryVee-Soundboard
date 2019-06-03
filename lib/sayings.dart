@@ -132,13 +132,13 @@ class _Sayings extends State<Sayings>
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
                 makeButton(buttonWidth, buttonHeight, 'Players', 46),
                 makeButton(buttonWidth, buttonHeight, 'Do Their Thing', 47),
-                makeButton(buttonWidth, buttonHeight, 'Understand That', 51),
+                makeButton(buttonWidth, buttonHeight, 'Understand \nThat', 51),
               ]),
               space,
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
                 makeButton(buttonWidth, buttonHeight, 'Less Marathons', 52),
                 makeButton(buttonWidth, buttonHeight, 'Less Fortnite', 53),
-                makeButton(buttonWidth, buttonHeight, 'Fishing Pole', 54),
+                makeButton(buttonWidth, buttonHeight, 'Fishing \nPole', 54),
               ],),
               space,
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[

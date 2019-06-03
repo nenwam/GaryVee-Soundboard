@@ -144,6 +144,19 @@ class _CurseWords extends State<CurseWords>
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
                 makeButton(buttonWidth, buttonHeight, 'Fucken Trash', 38),
                 makeButton(buttonWidth, 56.0, 'Shit on You', 40),
+                makeButton(buttonWidth, buttonHeight, 'Fuck Faces', 72)
+              ],),
+              space,
+              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
+                makeButton(buttonWidth, buttonHeight, 'I Love Curse', 73),
+                makeButton(buttonWidth, buttonHeight, 'Dick Face', 74),
+                makeButton(buttonWidth, buttonHeight, 'Nobody Gives \n a Fuck', 75)
+              ],),
+              space,
+              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: <Widget>[
+                makeButton(buttonWidth, buttonHeight, 'Jack Shit', 76),
+                makeButton(buttonWidth, buttonHeight, 'You\'re Lost', 79),
+                makeButton(buttonWidth, buttonHeight, 'Done Shit', 78)
               ],),
             ])
             )
