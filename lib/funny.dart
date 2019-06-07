@@ -87,7 +87,7 @@ class _Funny extends State<Funny>
       padding: new EdgeInsets.all(10),
       child: new RaisedButton(
         onPressed: () => player.play(soundFilePath[filePath]),
-        child: Text(name, style: new TextStyle(fontFamily: 'Comfortaa Regular', fontSize: queryData.textScaleFactor*18))
+        child: Text(name, style: new TextStyle(fontFamily: 'Comfortaa Regular', fontSize: queryData.textScaleFactor*14))
       )
     );
   }

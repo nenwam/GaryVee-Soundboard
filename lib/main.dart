@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:firebase_admob/firebase_admob.dart';
 import 'package:test_soundboard_app/drawer_maker.dart';
 import 'package:test_soundboard_app/responses.dart';
 import 'package:test_soundboard_app/curse_words.dart';
@@ -26,7 +27,9 @@ class SoundBoardApp extends StatelessWidget
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
+    FirebaseAdMob.instance.initialize(appId: "ca-app-pub-4811755606104656~5047317200").then((response){
+      myBanner..load()..show();
+    });
     return MaterialApp(
       title: 'Test Soundboard App',
       debugShowCheckedModeBanner: false,
@@ -147,12 +150,26 @@ class HomePage extends StatelessWidget
   }
 }
 
+MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+  keywords: <String>['garyvee', 'gary vaynerchuck', 'entrepeneurship', 'money', 'hustle', 'sneakers', 
+                     'drock', 'business', 'motivational', 'motivation', 'inspirational', 'inspiration'],
+  contentUrl: 'https://flutter.io',
+  birthday: DateTime.now(),
+  childDirected: false,
+  designedForFamilies: false,
+  gender: MobileAdGender.male, // or MobileAdGender.female, MobileAdGender.unknown
+  testDevices: <String>[], // Android emulators are considered test devices
+);
 
-//  new Container(
-//                   decoration: new BoxDecoration(
-//                     image: new DecorationImage(
-//                       image: new AssetImage("assets/images/garyVeeTestBG1.png"),
-//                       fit: BoxFit.cover,
-//                     )
-//                   ),
-//                 ),
+BannerAd myBanner = BannerAd(
+  // Replace the testAdUnitId with an ad unit id from the AdMob dash.
+  // https://developers.google.com/admob/android/test-ads
+  // https://developers.google.com/admob/ios/test-ads
+  adUnitId: "ca-app-pub-4811755606104656/8547578516",
+  size: AdSize.smartBanner,
+  targetingInfo: targetingInfo,
+  listener: (MobileAdEvent event) {
+    print("BannerAd event is $event");
+  },
+);
+
